@@ -1,0 +1,660 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lbIdeaTitle.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lbIdeaTitle.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbIdeaTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 104</value>
+  </data>
+  <data name="lbIdeaTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>76, 16</value>
+  </data>
+  <data name="lbIdeaTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="lbIdeaTitle.Text" xml:space="preserve">
+    <value>Idea Title</value>
+  </data>
+  <data name="&gt;&gt;lbIdeaTitle.Name" xml:space="preserve">
+    <value>lbIdeaTitle</value>
+  </data>
+  <data name="&gt;&gt;lbIdeaTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbIdeaTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbIdeaTitle.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="tbIdeaTitle.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 98</value>
+  </data>
+  <data name="tbIdeaTitle.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbIdeaTitle.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 22</value>
+  </data>
+  <data name="tbIdeaTitle.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tbIdeaTitle.Name" xml:space="preserve">
+    <value>tbIdeaTitle</value>
+  </data>
+  <data name="&gt;&gt;tbIdeaTitle.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIdeaTitle.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbIdeaTitle.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="lbCountryAva.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbCountryAva.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbCountryAva.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 161</value>
+  </data>
+  <data name="lbCountryAva.Size" type="System.Drawing.Size, System.Drawing">
+    <value>147, 16</value>
+  </data>
+  <data name="lbCountryAva.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="lbCountryAva.Text" xml:space="preserve">
+    <value>Country Availability</value>
+  </data>
+  <data name="&gt;&gt;lbCountryAva.Name" xml:space="preserve">
+    <value>lbCountryAva</value>
+  </data>
+  <data name="&gt;&gt;lbCountryAva.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbCountryAva.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbCountryAva.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="lbAbstract.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbAbstract.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbAbstract.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 133</value>
+  </data>
+  <data name="lbAbstract.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="lbAbstract.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="lbAbstract.Text" xml:space="preserve">
+    <value>Abstract</value>
+  </data>
+  <data name="&gt;&gt;lbAbstract.Name" xml:space="preserve">
+    <value>lbAbstract</value>
+  </data>
+  <data name="&gt;&gt;lbAbstract.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbAbstract.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbAbstract.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="tbAbstract.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 129</value>
+  </data>
+  <data name="tbAbstract.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbAbstract.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 22</value>
+  </data>
+  <data name="tbAbstract.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbAbstract.Name" xml:space="preserve">
+    <value>tbAbstract</value>
+  </data>
+  <data name="&gt;&gt;tbAbstract.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbAbstract.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbAbstract.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="tbCountryAva.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 161</value>
+  </data>
+  <data name="tbCountryAva.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbCountryAva.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 22</value>
+  </data>
+  <data name="tbCountryAva.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbCountryAva.Name" xml:space="preserve">
+    <value>tbCountryAva</value>
+  </data>
+  <data name="&gt;&gt;tbCountryAva.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCountryAva.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbCountryAva.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="lbRegionalAva.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbRegionalAva.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbRegionalAva.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 194</value>
+  </data>
+  <data name="lbRegionalAva.Size" type="System.Drawing.Size, System.Drawing">
+    <value>154, 16</value>
+  </data>
+  <data name="lbRegionalAva.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="lbRegionalAva.Text" xml:space="preserve">
+    <value>Regional Availability</value>
+  </data>
+  <data name="&gt;&gt;lbRegionalAva.Name" xml:space="preserve">
+    <value>lbRegionalAva</value>
+  </data>
+  <data name="&gt;&gt;lbRegionalAva.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbRegionalAva.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbRegionalAva.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="tbRegionalAvailability.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 194</value>
+  </data>
+  <data name="tbRegionalAvailability.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbRegionalAvailability.Size" type="System.Drawing.Size, System.Drawing">
+    <value>506, 22</value>
+  </data>
+  <data name="tbRegionalAvailability.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbRegionalAvailability.Name" xml:space="preserve">
+    <value>tbRegionalAvailability</value>
+  </data>
+  <data name="&gt;&gt;tbRegionalAvailability.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbRegionalAvailability.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbRegionalAvailability.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="lbCurrencyType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbCurrencyType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbCurrencyType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 229</value>
+  </data>
+  <data name="lbCurrencyType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 16</value>
+  </data>
+  <data name="lbCurrencyType.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="lbCurrencyType.Text" xml:space="preserve">
+    <value>Currency Type</value>
+  </data>
+  <data name="&gt;&gt;lbCurrencyType.Name" xml:space="preserve">
+    <value>lbCurrencyType</value>
+  </data>
+  <data name="&gt;&gt;lbCurrencyType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbCurrencyType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbCurrencyType.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tbCurrencyType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>139, 225</value>
+  </data>
+  <data name="tbCurrencyType.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbCurrencyType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>543, 22</value>
+  </data>
+  <data name="tbCurrencyType.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tbCurrencyType.Name" xml:space="preserve">
+    <value>tbCurrencyType</value>
+  </data>
+  <data name="&gt;&gt;tbCurrencyType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbCurrencyType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbCurrencyType.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lbIdeaType.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbIdeaType.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbIdeaType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 263</value>
+  </data>
+  <data name="lbIdeaType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 16</value>
+  </data>
+  <data name="lbIdeaType.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="lbIdeaType.Text" xml:space="preserve">
+    <value>Idea Type</value>
+  </data>
+  <data name="&gt;&gt;lbIdeaType.Name" xml:space="preserve">
+    <value>lbIdeaType</value>
+  </data>
+  <data name="&gt;&gt;lbIdeaType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbIdeaType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbIdeaType.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbIdeaType.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 263</value>
+  </data>
+  <data name="tbIdeaType.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tbIdeaType.Size" type="System.Drawing.Size, System.Drawing">
+    <value>577, 22</value>
+  </data>
+  <data name="tbIdeaType.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;tbIdeaType.Name" xml:space="preserve">
+    <value>tbIdeaType</value>
+  </data>
+  <data name="&gt;&gt;tbIdeaType.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbIdeaType.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbIdeaType.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbPublishDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbPublishDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbPublishDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 300</value>
+  </data>
+  <data name="lbPublishDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 16</value>
+  </data>
+  <data name="lbPublishDate.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="lbPublishDate.Text" xml:space="preserve">
+    <value>Publish Date</value>
+  </data>
+  <data name="&gt;&gt;lbPublishDate.Name" xml:space="preserve">
+    <value>lbPublishDate</value>
+  </data>
+  <data name="&gt;&gt;lbPublishDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbPublishDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbPublishDate.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 294</value>
+  </data>
+  <data name="dateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="dateTimePicker.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Name" xml:space="preserve">
+    <value>dateTimePicker</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="ExpireDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>482, 330</value>
+  </data>
+  <data name="ExpireDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="ExpireDate.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;ExpireDate.Name" xml:space="preserve">
+    <value>ExpireDate</value>
+  </data>
+  <data name="&gt;&gt;ExpireDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ExpireDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;ExpireDate.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="button1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Algerian, 7.8pt</value>
+  </data>
+  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>243, 399</value>
+  </data>
+  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>351, 39</value>
+  </data>
+  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>CREATE IDEA</value>
+  </data>
+  <data name="&gt;&gt;button1.Name" xml:space="preserve">
+    <value>button1</value>
+  </data>
+  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="LbEnterIdea.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="LbEnterIdea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Algerian, 13.8pt, style=Bold</value>
+  </data>
+  <data name="LbEnterIdea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>285, 46</value>
+  </data>
+  <data name="LbEnterIdea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>226, 26</value>
+  </data>
+  <data name="LbEnterIdea.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="LbEnterIdea.Text" xml:space="preserve">
+    <value>Enter Your Idea</value>
+  </data>
+  <data name="&gt;&gt;LbEnterIdea.Name" xml:space="preserve">
+    <value>LbEnterIdea</value>
+  </data>
+  <data name="&gt;&gt;LbEnterIdea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;LbEnterIdea.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;LbEnterIdea.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbExpireDate.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbExpireDate.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbExpireDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbExpireDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>22, 330</value>
+  </data>
+  <data name="lbExpireDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>93, 16</value>
+  </data>
+  <data name="lbExpireDate.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lbExpireDate.Text" xml:space="preserve">
+    <value>Expire Date</value>
+  </data>
+  <data name="&gt;&gt;lbExpireDate.Name" xml:space="preserve">
+    <value>lbExpireDate</value>
+  </data>
+  <data name="&gt;&gt;lbExpireDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbExpireDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbExpireDate.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btClose.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>None</value>
+  </data>
+  <data name="btClose.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Popup</value>
+  </data>
+  <data name="btClose.Location" type="System.Drawing.Point, System.Drawing">
+    <value>750, -1</value>
+  </data>
+  <data name="btClose.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 46</value>
+  </data>
+  <data name="btClose.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="btClose.Text" xml:space="preserve">
+    <value>X</value>
+  </data>
+  <data name="&gt;&gt;btClose.Name" xml:space="preserve">
+    <value>btClose</value>
+  </data>
+  <data name="&gt;&gt;btClose.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btClose.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btClose.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>8, 16</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>800, 450</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CreateIdea</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>PublishDate</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
