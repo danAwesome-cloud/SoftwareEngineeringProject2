@@ -126,7 +126,7 @@
     <value>News706 BT, 7.8pt, style=Bold</value>
   </data>
   <data name="lbIdeaTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 104</value>
+    <value>33, 57</value>
   </data>
   <data name="lbIdeaTitle.Size" type="System.Drawing.Size, System.Drawing">
     <value>76, 16</value>
@@ -147,10 +147,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbIdeaTitle.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>22</value>
   </data>
   <data name="tbIdeaTitle.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 98</value>
+    <value>115, 51</value>
   </data>
   <data name="tbIdeaTitle.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -171,7 +171,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbIdeaTitle.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>21</value>
   </data>
   <data name="lbCountryAva.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -180,7 +180,7 @@
     <value>News706 BT, 7.8pt, style=Bold</value>
   </data>
   <data name="lbCountryAva.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 161</value>
+    <value>33, 114</value>
   </data>
   <data name="lbCountryAva.Size" type="System.Drawing.Size, System.Drawing">
     <value>147, 16</value>
@@ -201,7 +201,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbCountryAva.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>20</value>
   </data>
   <data name="lbAbstract.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -210,7 +210,7 @@
     <value>News706 BT, 7.8pt, style=Bold</value>
   </data>
   <data name="lbAbstract.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 133</value>
+    <value>33, 86</value>
   </data>
   <data name="lbAbstract.Size" type="System.Drawing.Size, System.Drawing">
     <value>66, 16</value>
@@ -231,10 +231,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbAbstract.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>19</value>
   </data>
   <data name="tbAbstract.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 129</value>
+    <value>115, 82</value>
   </data>
   <data name="tbAbstract.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -255,10 +255,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbAbstract.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>18</value>
   </data>
   <data name="tbCountryAva.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 161</value>
+    <value>186, 114</value>
   </data>
   <data name="tbCountryAva.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -279,7 +279,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbCountryAva.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>17</value>
   </data>
   <data name="lbRegionalAva.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -288,7 +288,7 @@
     <value>News706 BT, 7.8pt, style=Bold</value>
   </data>
   <data name="lbRegionalAva.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 194</value>
+    <value>33, 147</value>
   </data>
   <data name="lbRegionalAva.Size" type="System.Drawing.Size, System.Drawing">
     <value>154, 16</value>
@@ -309,10 +309,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbRegionalAva.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>16</value>
   </data>
   <data name="tbRegionalAvailability.Location" type="System.Drawing.Point, System.Drawing">
-    <value>176, 194</value>
+    <value>186, 147</value>
   </data>
   <data name="tbRegionalAvailability.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -333,7 +333,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbRegionalAvailability.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>15</value>
   </data>
   <data name="lbCurrencyType.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -342,7 +342,7 @@
     <value>News706 BT, 7.8pt, style=Bold</value>
   </data>
   <data name="lbCurrencyType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 229</value>
+    <value>33, 182</value>
   </data>
   <data name="lbCurrencyType.Size" type="System.Drawing.Size, System.Drawing">
     <value>110, 16</value>
@@ -363,10 +363,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbCurrencyType.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>14</value>
   </data>
   <data name="tbCurrencyType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>139, 225</value>
+    <value>149, 178</value>
   </data>
   <data name="tbCurrencyType.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -387,7 +387,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbCurrencyType.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>13</value>
   </data>
   <data name="lbIdeaType.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -396,7 +396,7 @@
     <value>News706 BT, 7.8pt, style=Bold</value>
   </data>
   <data name="lbIdeaType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 263</value>
+    <value>33, 216</value>
   </data>
   <data name="lbIdeaType.Size" type="System.Drawing.Size, System.Drawing">
     <value>77, 16</value>
@@ -417,10 +417,10 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbIdeaType.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>12</value>
   </data>
   <data name="tbIdeaType.Location" type="System.Drawing.Point, System.Drawing">
-    <value>105, 263</value>
+    <value>115, 216</value>
   </data>
   <data name="tbIdeaType.Multiline" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -441,7 +441,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;tbIdeaType.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>11</value>
   </data>
   <data name="lbPublishDate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -450,7 +450,7 @@
     <value>News706 BT, 7.8pt, style=Bold</value>
   </data>
   <data name="lbPublishDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 300</value>
+    <value>355, 253</value>
   </data>
   <data name="lbPublishDate.Size" type="System.Drawing.Size, System.Drawing">
     <value>99, 16</value>
@@ -471,51 +471,54 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbPublishDate.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>10</value>
   </data>
-  <data name="dateTimePicker.Location" type="System.Drawing.Point, System.Drawing">
-    <value>482, 294</value>
+  <data name="tbPublishdate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 247</value>
   </data>
-  <data name="dateTimePicker.Size" type="System.Drawing.Size, System.Drawing">
+  <data name="tbPublishdate.Size" type="System.Drawing.Size, System.Drawing">
     <value>200, 22</value>
   </data>
-  <data name="dateTimePicker.TabIndex" type="System.Int32, mscorlib">
+  <data name="tbPublishdate.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="&gt;&gt;dateTimePicker.Name" xml:space="preserve">
-    <value>dateTimePicker</value>
+  <data name="&gt;&gt;tbPublishdate.Name" xml:space="preserve">
+    <value>tbPublishdate</value>
   </data>
-  <data name="&gt;&gt;dateTimePicker.Type" xml:space="preserve">
+  <data name="&gt;&gt;tbPublishdate.Type" xml:space="preserve">
     <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dateTimePicker.Parent" xml:space="preserve">
+  <data name="&gt;&gt;tbPublishdate.Parent" xml:space="preserve">
     <value>$this</value>
   </data>
-  <data name="&gt;&gt;dateTimePicker.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="ExpireDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>482, 330</value>
-  </data>
-  <data name="ExpireDate.Size" type="System.Drawing.Size, System.Drawing">
-    <value>200, 22</value>
-  </data>
-  <data name="ExpireDate.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;ExpireDate.Name" xml:space="preserve">
-    <value>ExpireDate</value>
-  </data>
-  <data name="&gt;&gt;ExpireDate.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;ExpireDate.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;ExpireDate.ZOrder" xml:space="preserve">
-    <value>4</value>
+  <data name="&gt;&gt;tbPublishdate.ZOrder" xml:space="preserve">
+    <value>9</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tbexpireDate.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>On</value>
+  </data>
+  <data name="tbexpireDate.Location" type="System.Drawing.Point, System.Drawing">
+    <value>492, 283</value>
+  </data>
+  <data name="tbexpireDate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>200, 22</value>
+  </data>
+  <data name="tbexpireDate.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;tbexpireDate.Name" xml:space="preserve">
+    <value>tbexpireDate</value>
+  </data>
+  <data name="&gt;&gt;tbexpireDate.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbexpireDate.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbexpireDate.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
   <data name="button1.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
     <value>Popup</value>
   </data>
@@ -523,7 +526,7 @@
     <value>Algerian, 7.8pt</value>
   </data>
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>243, 399</value>
+    <value>242, 411</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
     <value>351, 39</value>
@@ -544,19 +547,19 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>7</value>
   </data>
   <data name="LbEnterIdea.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
   </data>
   <data name="LbEnterIdea.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Algerian, 13.8pt, style=Bold</value>
+    <value>Algerian, 10.8pt, style=Bold</value>
   </data>
   <data name="LbEnterIdea.Location" type="System.Drawing.Point, System.Drawing">
-    <value>285, 46</value>
+    <value>281, 19</value>
   </data>
   <data name="LbEnterIdea.Size" type="System.Drawing.Size, System.Drawing">
-    <value>226, 26</value>
+    <value>184, 21</value>
   </data>
   <data name="LbEnterIdea.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -574,7 +577,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;LbEnterIdea.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>6</value>
   </data>
   <data name="lbExpireDate.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -586,7 +589,7 @@
     <value>NoControl</value>
   </data>
   <data name="lbExpireDate.Location" type="System.Drawing.Point, System.Drawing">
-    <value>22, 330</value>
+    <value>361, 283</value>
   </data>
   <data name="lbExpireDate.Size" type="System.Drawing.Size, System.Drawing">
     <value>93, 16</value>
@@ -607,7 +610,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lbExpireDate.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <data name="btClose.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
     <value>None</value>
@@ -637,6 +640,117 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btClose.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="rtbInsertIdea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 311</value>
+  </data>
+  <data name="rtbInsertIdea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>560, 96</value>
+  </data>
+  <data name="rtbInsertIdea.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="rtbInsertIdea.Text" xml:space="preserve">
+    <value />
+  </data>
+  <data name="&gt;&gt;rtbInsertIdea.Name" xml:space="preserve">
+    <value>rtbInsertIdea</value>
+  </data>
+  <data name="&gt;&gt;rtbInsertIdea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RichTextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;rtbInsertIdea.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;rtbInsertIdea.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lbInsertIdea.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbInsertIdea.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbInsertIdea.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbInsertIdea.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 350</value>
+  </data>
+  <data name="lbInsertIdea.Size" type="System.Drawing.Size, System.Drawing">
+    <value>85, 16</value>
+  </data>
+  <data name="lbInsertIdea.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="lbInsertIdea.Text" xml:space="preserve">
+    <value>Insert Idea</value>
+  </data>
+  <data name="&gt;&gt;lbInsertIdea.Name" xml:space="preserve">
+    <value>lbInsertIdea</value>
+  </data>
+  <data name="&gt;&gt;lbInsertIdea.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbInsertIdea.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbInsertIdea.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lbRiskRating.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lbRiskRating.Font" type="System.Drawing.Font, System.Drawing">
+    <value>News706 BT, 7.8pt, style=Bold</value>
+  </data>
+  <data name="lbRiskRating.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lbRiskRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>32, 253</value>
+  </data>
+  <data name="lbRiskRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 16</value>
+  </data>
+  <data name="lbRiskRating.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="lbRiskRating.Text" xml:space="preserve">
+    <value>Risk Rating</value>
+  </data>
+  <data name="&gt;&gt;lbRiskRating.Name" xml:space="preserve">
+    <value>lbRiskRating</value>
+  </data>
+  <data name="&gt;&gt;lbRiskRating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbRiskRating.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lbRiskRating.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tbRiskRating.Location" type="System.Drawing.Point, System.Drawing">
+    <value>132, 246</value>
+  </data>
+  <data name="tbRiskRating.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 22</value>
+  </data>
+  <data name="tbRiskRating.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;tbRiskRating.Name" xml:space="preserve">
+    <value>tbRiskRating</value>
+  </data>
+  <data name="&gt;&gt;tbRiskRating.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbRiskRating.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tbRiskRating.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -648,11 +762,14 @@
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>800, 450</value>
   </data>
+  <data name="$this.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <data name="$this.Text" xml:space="preserve">
     <value>CreateIdea</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>PublishDate</value>
+    <value>CreateIdea</value>
   </data>
   <data name="&gt;&gt;$this.Type" xml:space="preserve">
     <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>

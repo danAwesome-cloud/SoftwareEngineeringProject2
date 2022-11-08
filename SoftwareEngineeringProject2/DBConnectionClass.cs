@@ -86,9 +86,24 @@ namespace SoftwareEngineeringProject2
             }
 
         }
+        public void CreateIdea(string ideaTitle, string ideaAbstract, string countryAvailability, string regionalAvailability, string currencyType, string ideaType, string publishDate, string expireDate, string insertIdea,string Riskrating)
+        {
+            using (SqlConnection connToDB = new SqlConnection(connStr))
+            {
+                connToDB.Open();
+                //set the sqlCommand's properties
+                //set the sqlCommand's properties
+                string querry = "INSERT INTO Idea (Risk_rating,Abstract,Country_availability,Regional_availability,Currency_type,Idea_type,Publish_date,Expire_date,Idea_title,Idea_document)Values('" + Riskrating + "','" + ideaAbstract + "','" + countryAvailability + "','" + regionalAvailability + "','" + currencyType + "','" + ideaType + "','" + publishDate + "','" + expireDate + "','" + ideaTitle + "','" + insertIdea + "')";
+                SqlCommand sqlcommand = new SqlCommand(querry, connToDB);
+                sqlcommand.ExecuteNonQuery();
+                MessageBox.Show("Saved");
 
 
 
+
+            }
+
+        }
     }
 
 

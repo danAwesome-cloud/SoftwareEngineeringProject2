@@ -1,7 +1,7 @@
 ﻿
 namespace SoftwareEngineeringProject2
 {
-    partial class PublishDate
+    partial class CreateIdea
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace SoftwareEngineeringProject2
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PublishDate));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CreateIdea));
             this.lbIdeaTitle = new System.Windows.Forms.Label();
             this.tbIdeaTitle = new System.Windows.Forms.TextBox();
             this.lbCountryAva = new System.Windows.Forms.Label();
@@ -43,12 +43,16 @@ namespace SoftwareEngineeringProject2
             this.lbIdeaType = new System.Windows.Forms.Label();
             this.tbIdeaType = new System.Windows.Forms.TextBox();
             this.lbPublishDate = new System.Windows.Forms.Label();
-            this.dateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.ExpireDate = new System.Windows.Forms.DateTimePicker();
+            this.tbPublishdate = new System.Windows.Forms.DateTimePicker();
+            this.tbexpireDate = new System.Windows.Forms.DateTimePicker();
             this.button1 = new System.Windows.Forms.Button();
             this.LbEnterIdea = new System.Windows.Forms.Label();
             this.lbExpireDate = new System.Windows.Forms.Label();
             this.btClose = new System.Windows.Forms.Button();
+            this.rtbInsertIdea = new System.Windows.Forms.RichTextBox();
+            this.lbInsertIdea = new System.Windows.Forms.Label();
+            this.lbRiskRating = new System.Windows.Forms.Label();
+            this.tbRiskRating = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbIdeaTitle
@@ -129,16 +133,16 @@ namespace SoftwareEngineeringProject2
             this.lbPublishDate.ForeColor = System.Drawing.SystemColors.Highlight;
             this.lbPublishDate.Name = "lbPublishDate";
             // 
-            // dateTimePicker
+            // tbPublishdate
             // 
-            resources.ApplyResources(this.dateTimePicker, "dateTimePicker");
-            this.dateTimePicker.Name = "dateTimePicker";
+            resources.ApplyResources(this.tbPublishdate, "tbPublishdate");
+            this.tbPublishdate.Name = "tbPublishdate";
             // 
-            // ExpireDate
+            // tbexpireDate
             // 
-            resources.ApplyResources(this.ExpireDate, "ExpireDate");
-            this.ExpireDate.Name = "ExpireDate";
-            this.ExpireDate.Value = new System.DateTime(2022, 10, 28, 0, 0, 0, 0);
+            resources.ApplyResources(this.tbexpireDate, "tbexpireDate");
+            this.tbexpireDate.Name = "tbexpireDate";
+            this.tbexpireDate.Value = new System.DateTime(2022, 10, 28, 0, 0, 0, 0);
             // 
             // button1
             // 
@@ -147,6 +151,7 @@ namespace SoftwareEngineeringProject2
             this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.button1.Name = "button1";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // LbEnterIdea
             // 
@@ -169,17 +174,44 @@ namespace SoftwareEngineeringProject2
             this.btClose.Name = "btClose";
             this.btClose.UseVisualStyleBackColor = false;
             // 
-            // PublishDate
+            // rtbInsertIdea
+            // 
+            resources.ApplyResources(this.rtbInsertIdea, "rtbInsertIdea");
+            this.rtbInsertIdea.Name = "rtbInsertIdea";
+            // 
+            // lbInsertIdea
+            // 
+            resources.ApplyResources(this.lbInsertIdea, "lbInsertIdea");
+            this.lbInsertIdea.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbInsertIdea.Name = "lbInsertIdea";
+            // 
+            // lbRiskRating
+            // 
+            resources.ApplyResources(this.lbRiskRating, "lbRiskRating");
+            this.lbRiskRating.ForeColor = System.Drawing.SystemColors.Highlight;
+            this.lbRiskRating.Name = "lbRiskRating";
+            this.lbRiskRating.Click += new System.EventHandler(this.label1_Click_1);
+            // 
+            // tbRiskRating
+            // 
+            resources.ApplyResources(this.tbRiskRating, "tbRiskRating");
+            this.tbRiskRating.Name = "tbRiskRating";
+            // 
+            // CreateIdea
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.tbRiskRating);
+            this.Controls.Add(this.lbRiskRating);
+            this.Controls.Add(this.lbInsertIdea);
+            this.Controls.Add(this.rtbInsertIdea);
             this.Controls.Add(this.btClose);
             this.Controls.Add(this.lbExpireDate);
             this.Controls.Add(this.LbEnterIdea);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.ExpireDate);
-            this.Controls.Add(this.dateTimePicker);
+            this.Controls.Add(this.tbexpireDate);
+            this.Controls.Add(this.tbPublishdate);
             this.Controls.Add(this.lbPublishDate);
             this.Controls.Add(this.tbIdeaType);
             this.Controls.Add(this.lbIdeaType);
@@ -193,7 +225,7 @@ namespace SoftwareEngineeringProject2
             this.Controls.Add(this.lbCountryAva);
             this.Controls.Add(this.tbIdeaTitle);
             this.Controls.Add(this.lbIdeaTitle);
-            this.Name = "PublishDate";
+            this.Name = "CreateIdea";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,11 +246,15 @@ namespace SoftwareEngineeringProject2
         private System.Windows.Forms.Label lbIdeaType;
         private System.Windows.Forms.TextBox tbIdeaType;
         private System.Windows.Forms.Label lbPublishDate;
-        private System.Windows.Forms.DateTimePicker dateTimePicker;
-        private System.Windows.Forms.DateTimePicker ExpireDate;
+        private System.Windows.Forms.DateTimePicker tbPublishdate;
+        private System.Windows.Forms.DateTimePicker tbexpireDate;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label LbEnterIdea;
         private System.Windows.Forms.Label lbExpireDate;
         private System.Windows.Forms.Button btClose;
+        private System.Windows.Forms.RichTextBox rtbInsertIdea;
+        private System.Windows.Forms.Label lbInsertIdea;
+        private System.Windows.Forms.Label lbRiskRating;
+        private System.Windows.Forms.TextBox tbRiskRating;
     }
 }

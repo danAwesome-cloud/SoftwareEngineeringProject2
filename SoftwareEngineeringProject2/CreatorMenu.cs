@@ -21,5 +21,11 @@ namespace SoftwareEngineeringProject2
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CreateIdea createIdea = new CreateIdea();
+            createIdea.Show();
+        }
     }
 }
